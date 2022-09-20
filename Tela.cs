@@ -11,7 +11,7 @@ namespace Chess
             {
                 for (int c = 0; c < tab.colunas; c++)
                 {
-                    if (tab.peca(c, l) == null)
+                    if (tab.peca(l, c) == null)
                         Console.Write("- ");
                     else
                         Console.Write(tab.peca(l, c) + " ");
